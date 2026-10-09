@@ -1,4 +1,7 @@
 package com.uped.proyecto.semana11;
 
-public class Auditoria {
+public interface Auditoria {
+    default String etiqueta() {
+        return "AUD";
+    }
 }

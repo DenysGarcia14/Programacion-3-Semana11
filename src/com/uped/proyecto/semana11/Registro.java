@@ -1,4 +1,7 @@
 package com.uped.proyecto.semana11;
 
-public class Registro {
+public interface Registro {
+    default String etiqueta() {
+        return "REG";
+    }
 }
